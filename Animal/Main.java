@@ -5,6 +5,7 @@ public class Main {
         
         Pig pig1 = new Pig();
         pig1.animalSound();
+        pig1.sleep();
 
     }
 }
