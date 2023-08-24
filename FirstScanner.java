@@ -9,7 +9,7 @@ public class FirstScanner {
         String userName = myObj.nextLine(); // Read user input
         System.out.println("The Username is: " + userName); // Output user input
         } finally {
-            in.close();
+            myObj.close();
         }
     }
 }
