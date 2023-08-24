@@ -1,4 +1,5 @@
 package Animal;
+
 interface Animal {
     void animalSound();
     void sleep();
